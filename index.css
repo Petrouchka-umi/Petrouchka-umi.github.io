@@ -54,7 +54,7 @@ a {
 
 .sea {
   width: 100vw;
-  height: 80vh;
+  height: 60vh;
 }
 
 .box {
@@ -68,8 +68,14 @@ a {
   font-size: 50px;
   letter-spacing: .1em;
   position: absolute;
-  top: 190px;
-  left: 100px;
+  top: 200px;
+  left: 200px;
+}
+
+.img {
+  height: 30vh;
+  width: 30vw;
+  margin: 30px
 }
 
 .footer-box {
