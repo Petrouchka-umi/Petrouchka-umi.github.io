@@ -3,7 +3,8 @@
 }
 
 .header-box {
-  background-color: linen;
+  /* background-color: linen; */
+  padding-top: 5px;
   height: 50px;
   width: 100vw;
   display: flex;
@@ -17,6 +18,7 @@ h2 {
   font-weight: bold;
   color: lightgray;
   letter-spacing: 0.05em;
+  /* font-family: "Amatic SC", cursive; */
 }
 
 span {
@@ -40,16 +42,10 @@ a {
   text-decoration: none;
 }
 
-.main {
-  width: 100vw;
-  height: 600px;
-  background-color: linen;
-}
 
 .message-box {
   position: relative;
-  margin: 0;
-  padding: 0;
+  margin: 10px 0;
 }
 
 .sea {
@@ -64,29 +60,38 @@ a {
 }
 
 .message {
-  color:#FF9872;
+  color: #FFCC33; 
   font-size: 50px;
   letter-spacing: .1em;
   position: absolute;
-  top: 200px;
-  left: 200px;
+  top: 225px;
+  left: 100px;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.main {
+  width: 700px;
+  height: 600px;
+  /* background-color: linen; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 25px;
+  color: skyblue;
 }
 
 .img {
+  width: 40vw;
   height: 30vh;
-  width: 30vw;
-  margin: 30px
 }
+
 
 .footer-box {
   text-align: center;
 }
-
-
-
-
-
-
 /*!
  * YUI 3.5.0 - reset.css (http://developer.yahoo.com/yui/3/cssreset/)
  * http://cssreset.com
