@@ -3,12 +3,15 @@
 }
 
 .header-box {
+  position: fixed;
   /* background-color: linen; */
   padding-top: 5px;
   height: 50px;
   width: 100vw;
   display: flex;
   justify-content: space-between;
+  background-color: white;
+  border-bottom: 2px solid whitesmoke;
 }
 
 h2 {
@@ -17,6 +20,7 @@ h2 {
   font-size: 35px;
   font-weight: bold;
   color: lightgray;
+  /* color: #FFF; */
   letter-spacing: 0.05em;
   /* font-family: "Amatic SC", cursive; */
 }
@@ -32,20 +36,24 @@ ul {
 
 li {
   text-decoration: none;
-  line-height: 50px;
+  line-height: 45px;
   padding: 0 8px;
   font-size: 18px;
   color: gray;
+  letter-spacing: 0.05em;
 }
 
 a {
   text-decoration: none;
 }
 
-
 .message-box {
-  position: relative;
-  margin: 10px 0;
+  width: 100vw;
+  height: 60vh;
+  background-image: url("https://www.renaru.jp/wp-content/uploads/2019/12/kantoutop.jpg" );
+  background-size: cover;
+  background-position: 30% 50%;
+  margin-bottom: 60px;
 }
 
 .sea {
@@ -53,45 +61,132 @@ a {
   height: 60vh;
 }
 
-.box {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-
 .message {
   color: #FFCC33; 
-  font-size: 50px;
+  font-size: 55px;
   letter-spacing: .1em;
-  position: absolute;
-  top: 225px;
-  left: 100px;
+  text-align: center;
+  padding-top: 205px;
   font-family: "Cormorant Garamond", serif;
 }
 
 .main {
-  width: 700px;
-  height: 600px;
+  width: 750px;
   /* background-color: linen; */
   margin-left: auto;
   margin-right: auto;
 }
 
+.content {
+  margin: 20px 0;
+}
+
 .title {
   text-align: center;
-  font-size: 25px;
+  font-size: 40px;
   color: skyblue;
+  font-family: "Cormorant Garamond", serif;
+  padding-bottom: 20px;
+  letter-spacing: 0.05em;
+}
+
+.content-box {
+  display: flex;
+  margin-bottom: 70px;
+}
+
+.content-box-works {
+  display: flex;
+  margin-bottom: 70px;
+  border: 2px solid lightgray;
 }
 
 .img {
-  width: 40vw;
-  height: 30vh;
+  padding-top: 10px;
+  padding-left: 5px;
+  width: 350px;
+  height: 320px;
 }
 
+.profile-img {
+  width: 220px;
+  height: 220px;
+  border: 3px solid skyblue;
+  border-radius: 60%;
+  margin-right: 28px;
+}
+
+p {
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  line-height: 35px;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.text-box-works {
+  margin-left: 25px;
+}
+
+.app {
+  margin: 5px 0;
+}
+
+.likenote {
+  text-decoration: none;
+  color: #66FF00;
+  font-size: 23px;
+}
+
+.kuro {
+  color: gray;
+  font-size: 15px;
+}
+
+.booktalk {
+ color: dodgerblue;
+ font-size: 23px;
+}
+
+.app-github {
+  text-decoration: none;
+  color: #FF773E;
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.skill-list {
+  color: black;
+}
+
+.contact-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.twitter {
+  margin-top: 20px;
+  color: #000;
+  display: block;
+  font-size: 23px;
+}
 
 .footer-box {
+  width: 100vw;
+  height: 30px;
+  background-color: lightblue;
+  margin-top: 20px;
   text-align: center;
+  line-height: 30px;
+  font-family: "Cormorant Garamond", serif;
 }
+
 /*!
  * YUI 3.5.0 - reset.css (http://developer.yahoo.com/yui/3/cssreset/)
  * http://cssreset.com
