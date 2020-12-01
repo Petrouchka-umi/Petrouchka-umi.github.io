@@ -6,137 +6,136 @@
     <title>umi-Portfolio</title>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="index.js"></script>
   </head>
-
   <body>
     <header>
       <div class="header-box">
         <h2>UMI'S <span>PORTFOLIO</span></h2>
         <ul class="list">
-          <li>future</li>
-          <li>profile</li>
-          <li>works</li>
-          <li>skill</li>
-          <li>contact</li>
+          <li><a href="#1">future</a></li>
+          <li><a href="#2">profile</a></li>
+          <li><a href="#3">works</a></li>
+          <li><a href="#4">skill</a></li>
+          <li><a href="#5">contact</a></li>
         </ul>
       </div>
     </header>
-      <div class="message-box">
-        <!-- <img class="sea" src="https://www.renaru.jp/wp-content/uploads/2019/12/kantoutop.jpg" alt="画像"> -->
-        <h1 class="message">You've place to shine</h1>
-      </div>
-      <div class="main">
-
-        <div class="content">
-          <div class="title">future</div>
-          <div class="content-box">
-            <div class="img-box"></div>
-            <div class="text-box">
-              <p>私には夢があります。それは世界中のすべての人が「輝ける場所」を見つけることです。</p>
-              <p>
-                物や情報に溢れた今の世の中で、ひとりひとりが自己実現できる環境で生きていくことが人生を豊かにできると考えています。
-                人は社会的な生き物です。職場や学校、家庭などの環境に強く影響されます。その中で周りに流されることなく
-                自分軸を見失わないことが、あなたを輝かせてより良い人生に繋がります。
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="content">
-          <div class="title">profile</div>
-          <div class="content-box">
-            <div class="img-box">
-              <img class="profile-img" src="AA2E0C32-7414-4A75-B541-FAB9757D9190_1_105_c.jpeg" alt="画像">
-            </div>
-            <div class="text-box">
-              <p>平成9年生まれ23歳の坂尾卓海(<a class="my-twitter" href="https://twitter.com/qhnxt6umi">@qhnxt6umi</a>)です。</p>
-              <p>
-                2019年4月から作業療法士として急性期病院で2年間勤務。しかし、仕事に対するやりがい・楽しさを見出せず転職を決意。
-                人生はリスクを背負ってこそ良き道が拓けると信じ以前から興味のあったプログラミングに思い切って挑戦！
-              </p>
-              <p>趣味：スノボー・ランニング・読書・旅行</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="content">
-          <div class="title">works</div>
-          <div class="content-box-works">
-            <div class="img-box">
-              <!-- <img class="img" src="app_new.png" alt="画像"> -->
-              <video class="img" autoplay muted playsinline controls><source src="chart.mp4"></video>
-            </div>
-            <div class="text-box-works">
-              <p class="app">アプリ名：
-                <a class="likenote" href="https://like-note.herokuapp.com/">Like-Note<span class="kuro">（デプロイ済）</span></a>
-              </p>
-              <p></p>
-              <p>今日あったポジティブな出来事３つとその日の気分を記録する日記のようなアプリ。</p>
-              <p>気分はフェスマークで表現し、日付別に気分の波をグラフとして見ることも可能。</p>
-              <p>精神科医で作家の樺沢紫苑先生が提唱しているポジティブ三行日記のアプリ版です。</p>
-              <a class="app-github" href="https://github.com/Petrouchka-umi/like-note">Github</a>
-            </div>
-          </div>
-
-          <div class="content-box-works">
-            <div class="img-box">
-              <img class="img" src="Book-Talk.png" alt="画像">
-            </div>
-            <div class="text-box-works">
-              <p class="app">アプリ名：<sapn class="booktalk">BookTalk</sapn></p>
-              <p>読書でのインプットを読んだままにしないための本専用アウトプットツール。</p>
-              <p>読書で気になった箇所や重要な箇所をメモのように残しておくことができます。メモは他人とお互いに共有でき、メモに対してコメントを残すこともできます。</p>
-              <a class="app-github" href="https://github.com/Petrouchka-umi/book-talk">Github</a>
-            </div>
-          </div>
-
-          <div class="content-box-works">
-            <div class="img-box">
-              <img class="img" src="#" alt="画像">
-            </div>
-            <div class="text-box">
-              <p>アプリ名：
-                <a class="furima" href="#">Furima</a>
-              </p>
-              <p></p>
-              <a class="app-github" href="#">Github</a>
-            </div>
-          </div>
-
-        </div>
-
-
-        <div class="content">
-          <div class="title">skill</div>
+    <div class="message-box" id="6">
+      <h1 class="message">You've place to shine</h1>
+    </div>
+    <div class="main">
+      <div class="content-M" id="1">
+        <div class="title">future</div>
+        <div class="content-box">
+          <div class="img-box"></div>
           <div class="text-box">
-            <h3></h3>
-            <ul>
-              <li class="skill-list">HTML/CSS</li>
-              <li class="skill-list">Ruby</li>
-              <li class="skill-list">JavaScript</li>
-              <li class="skill-list">Ruby on Rails</li>
-              <li class="skill-list">AWS/heroku</li>
-              <li class="skill-list">Github</li>
-            </ul>
-            <!-- <p>まだまだ未熟のため日々、勉強中です。</p> -->
+            <p>私には夢があります。それは世界中のすべての人が「輝ける場所」を見つけることです。</p>
+            <p>
+              物や情報に溢れた今の世の中で、ひとりひとりが自己実現できる環境で生きていくことが人生を豊かにできると考えています。
+              人は社会的な生き物です。職場や学校、家庭などの環境に強く影響されます。その中で周りに流されることなく
+              自分軸を見失わないことが、あなたを輝かせてより良い人生に繋がります。
+            </p>
           </div>
         </div>
-
-        <div class="content">
-          <div class="title">contact</div>
-          <div class="content-box">
-            <div class="contact-box">
-              <div class="text-box">お問い合わせは、下記のTwitterからお願い致します。</div>
-              <a href="https://twitter.com/qhnxt6umi" class="twitter"><span class="fa fa-twitter"></span>こちらから</a>
-            </div>
-          </div>
-        </div>
-
       </div>
-
+      <div class="content" id="2">
+        <div class="title">profile</div>
+        <div class="content-box">
+          <div class="img-box">
+            <img class="profile-img" src="AA2E0C32-7414-4A75-B541-FAB9757D9190_1_105_c.jpeg" alt="画像">
+          </div>
+          <div class="text-box">
+            <p>平成9年生まれ23歳の坂尾卓海(<a class="my-twitter" href="https://twitter.com/qhnxt6umi">@qhnxt6umi</a>)です。</p>
+            <p>
+              2019年4月から作業療法士として急性期病院で2年間勤務。しかし、仕事に対するやりがい・楽しさを見出せず転職を決意。
+              人生はリスクを背負ってこそ良き道が拓けると信じ以前から興味のあったプログラミングに思い切って挑戦！
+            </p>
+            <p>趣味：スノボー・ランニング・読書・旅行</p>
+          </div>
+        </div>
+      </div>
+      <div class="content" id="3">
+        <div class="title">works</div>
+        <p class="subtitle">〜これまでの制作実績〜</p>
+        <div class="content-box-works">
+          <div class="img-box">
+            <!-- <img class="img" src="app_new.png" alt="画像"> -->
+            <video class="img" autoplay muted playsinline controls><source src="chart.mp4"></video>
+          </div>
+          <div class="text-box-works">
+            <p class="app">アプリ名：
+              <a class="likenote" href="https://like-note.herokuapp.com/">Like-Note<span class="kuro">（デプロイ済）</span></a>
+            </p>
+            <p></p>
+            <p>今日あったポジティブな出来事３つとその日の気分を記録する日記のようなアプリ。</p>
+            <p>気分はフェスマークで表現し、日付別に気分の波をグラフとして見ることも可能。</p>
+            <p>精神科医で作家の樺沢紫苑先生が提唱しているポジティブ三行日記のアプリ版です。</p>
+            <a class="app-github" href="https://github.com/Petrouchka-umi/like-note">Github</a>
+          </div>
+        </div>
+        <div class="content-box-works">
+          <div class="img-box">
+            <img class="img" src="Book-Talk.png" alt="画像">
+          </div>
+          <div class="text-box-works">
+            <p class="app">アプリ名：
+              <sapn class="booktalk">BookTalk</sapn>
+            </p>
+            <p>読書でのインプットを読んだままにしないための本専用アウトプットツール。</p>
+            <p>読書で気になった箇所や重要な箇所をメモのように残しておくことができます。メモは他人とお互いに共有でき、メモに対してコメントを残すこともできます。</p>
+            <a class="app-github" href="https://github.com/Petrouchka-umi/book-talk">Github</a>
+          </div>
+        </div>
+        <div class="content-box-works">
+          <div class="img-box">
+            <img class="img" src="furima.jpg" alt="画像">
+          </div>
+          <div class="text-box-works">
+            <p class="app">アプリ名： 
+              <sapn class="furima">Furima</sapn>
+              <!-- <a class="furima" href="#">Furima</a> -->
+            </p>
+            <p>メルカリをモデルにアジャイル開発にて、フリマアプリのクローンサイトを作成。</p>
+            <p>DB設計・商品出品・カテゴリー機能・商品検索・単体テストなどを担当。</p>
+            <p>テックキャンプ休日夜間80期、チームでの制作物です。
+            </p>
+            <a class="app-github" href="https://github.com/MrChild-MrAdult/fleamarket_sample_80b">Github</a>
+          </div>
+        </div>
+      </div>
+      <div class="content" id="4">
+        <div class="title">skill</div>
+        <p class="subtitle">〜まだまだ未熟者のため日々勉強しています！〜</p>
+        <div class="text-box">
+          <h3></h3>
+          <ul class="sikll-lists">
+            <li class="skill-list">HTML/CSS</li>
+            <li class="skill-list">Ruby</li>
+            <li class="skill-list">JavaScript</li>
+            <li class="skill-list">Ruby on Rails</li>
+            <li class="skill-list">AWS/heroku</li>
+            <li class="skill-list">Github</li>
+          </ul>
+        </div>
+      </div>
+      <div class="content" id="5">
+        <div class="title">contact</div>
+        <div class="content-box">
+          <div class="contact-box">
+            <div class="text-box">
+              <p class="contact-message">お問い合わせは、下記のTwitterからお願い致します。</p>
+            </div>
+            <a href="https://twitter.com/qhnxt6umi" class="twitter"><span class="fa fa-twitter"></span>こちらから</a>
+          </div>
+        </div>
+      </div>
+    </div>
     <footer>
+      <div><a href="#6" class="top">トップへ</a></div>
       <div class="footer-box">
-        <p>UMI'S PORTFOLIO</p>
+        <p class="footer-message">UMI'S PORTFOLIO</p>
       </div>
     </footer>
   </body>
