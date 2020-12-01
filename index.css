@@ -4,7 +4,6 @@
 
 .header-box {
   position: fixed;
-  /* background-color: linen; */
   padding-top: 5px;
   height: 50px;
   width: 100vw;
@@ -20,9 +19,13 @@ h2 {
   font-size: 35px;
   font-weight: bold;
   color: lightgray;
-  /* color: #FFF; */
   letter-spacing: 0.05em;
-  /* font-family: "Amatic SC", cursive; */
+}
+
+.subtitle {
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 22px;
 }
 
 span {
@@ -44,6 +47,7 @@ li {
 }
 
 a {
+  color: gray;
   text-decoration: none;
 }
 
@@ -53,7 +57,6 @@ a {
   background-image: url("https://www.renaru.jp/wp-content/uploads/2019/12/kantoutop.jpg" );
   background-size: cover;
   background-position: 30% 50%;
-  margin-bottom: 60px;
 }
 
 .sea {
@@ -72,13 +75,20 @@ a {
 
 .main {
   width: 750px;
-  /* background-color: linen; */
   margin-left: auto;
   margin-right: auto;
 }
 
+.content-M {
+  margin: 70px 0 100px 0;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
+
 .content {
-  margin: 20px 0;
+  margin: 100px 0;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
 }
 
 .title {
@@ -97,7 +107,7 @@ a {
 
 .content-box-works {
   display: flex;
-  margin-bottom: 70px;
+  margin-bottom: 90px;
   border: 2px solid lightgray;
 }
 
@@ -147,6 +157,11 @@ p {
  font-size: 23px;
 }
 
+.furima {
+  color: crimson;
+  font-size: 23px;
+}
+
 .app-github {
   text-decoration: none;
   color: #FF773E;
@@ -155,6 +170,10 @@ p {
   font-size: 20px;
   margin-top: 15px;
   margin-right: 10px;
+}
+
+.sikll-lists {
+  border: 2px solid lightgrey;
 }
 
 .skill-list {
@@ -169,22 +188,43 @@ p {
   margin-right: auto;
 }
 
+.contact-message {
+  text-align: center;
+  font-size: 25px;
+  margin: 20px 0;
+}
 
 .twitter {
   margin-top: 20px;
   color: #000;
   display: block;
   font-size: 23px;
+  border-bottom: 2px solid skyblue ;
+}
+
+.top {
+  display: block;
+  text-align: center;
+  color:gray;
+  font-weight: bold;
+  font-size: 17px;
+  width: 100%;
+  height: 30px;
+  background-color: lightyellow;
 }
 
 .footer-box {
   width: 100vw;
-  height: 30px;
+  height: 120px;
   background-color: lightblue;
-  margin-top: 20px;
   text-align: center;
   line-height: 30px;
   font-family: "Cormorant Garamond", serif;
+  margin: 0 auto;
+}
+
+.footer-message {
+  padding: 45px;
 }
 
 /*!
