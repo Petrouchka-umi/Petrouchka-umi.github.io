@@ -162,6 +162,11 @@ p {
   font-size: 23px;
 }
 
+.umi-blog {
+  color: deepskyblue;
+  font-size: 23px;
+}
+
 .app-github {
   text-decoration: none;
   color: #FF773E;
